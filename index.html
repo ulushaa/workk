@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWork</title>
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg header__nav">
+            <div class="container">
+              <a class="logo" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fal fa-bars header__nav-burger"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav header__nav-list ms-auto align-items-lg-center">
+                  <li class="nav-item">
+                    <a class="header__nav-link" href="#">About me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="header__nav-link" href="#">Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="header__nav-link btn-all header__nav-btn" href="#">to order</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="header__nav-link" href="tel:423432432">
+                      <i class="fal fa-phone-square-alt header__nav-phone"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <div class="container">
+              <div id="carouselExampleIndicators" class="carousel slide row" data-bs-ride="carousel">
+                <div class="col-lg-6">
+                    <div class="header__content-top col-lg-10 ms-auto">
+                        <p class="header__content-text">My beginning</p>
+                        <h1 class="header__content-title">Self-development and training in the training center</h1>
+                        <a href="#!" class="header__content-btn btn-all">GET STARTED NOW</a>
+                    </div>
+                    <div class="row header__content-bottom justify-content-center">
+                        <div class="col-6 col-sm-4 header__bottom-item text-center">
+                          <i class="fab fa-html5 header__bottom-icon html"></i>
+                          <h3 class="header__bottom-title">HTML</h3>
+                        </div>
+                        <div class="col-6 col-sm-4 header__bottom-item text-center">
+                          <i class="fab fa-css3-alt header__bottom-icon css"></i>
+                          <h3 class="header__bottom-title">CSS</h3>
+                        </div>
+                        <div class="col-6 col-sm-4 header__bottom-item text-center">
+                          <i class="fab fa-bootstrap header__bottom-icon bootstrap"></i>
+                          <h3 class="header__bottom-title">bootstrap 5</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/header-img.png" alt="" class="header__carousel-img w-100">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/header-img.png" alt="" class="header__carousel-img w-100">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/header-img.png" alt="" class="header__carousel-img w-100">
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-indicators header__indicators">
+                  <button class="header__indicators-btn active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                  <button class="header__indicators-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button class="header__indicators-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section__about">
+            <div class="container">
+                  <div class="row justify-content-center justify-content-xl-between">
+                        <div class="col-md-8 col-xl-5">
+                            <div class="section__about-image">
+                                <img src="images/human-1.png" alt="" class="section__about-img w-100  h-100">
+                                <a href="#!" class="btn-all section__about-link">my work for
+                                  <span class="section__about-span">5+</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                          <div class="section__about-info">
+                              <h2 class="section__about-title">What is Frond-End</h2>
+                              <p class="section__about-text">it is the development of of the user interface and functions that run on on the client side of a website or application
+                                This is everything that a user sees when opening a or aweb page and with which he interacts.</p>
+                              <p class="section__about-text">This is everything that a user sees when opening a web page and with which he interacts.</p>
+                              <a href="#!" class="btn-all section__about-btn">go to work</a>
+                          </div>
+                        </div>
+                  </div>
+            </div>
+        </section>
+        <section class="section__capabilities">
+            <div class="container">
+                <h2 class="title">capabilities</h2>
+                <div class="row align-items-center">
+                    <div class="col-xl-6">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion__item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion__button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <i class="fab fa-html5 accordion__item-icon"></i>
+                              <span class="accordion__item-span">HTML</span>
+                              <i class="fas fa-sort-up accordion__item-arrow ms-auto"></i>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion__body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit enim. Accumsan est 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion__item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion__button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                              <i class="fab fa-css3-alt accordion__item-icon"></i>
+                              <span class="accordion__item-span">CSS</span>
+                              <i class="fas fa-sort-up accordion__item-arrow ms-auto"></i>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion__body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit enim. Accumsan est 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion__item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                              <i class="fab fa-bootstrap accordion__item-icon"></i>
+                              <span class="accordion__item-span">bootstrap 5</span>
+                              <i class="fas fa-sort-up accordion__item-arrow ms-auto"></i>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion__body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit enim. Accumsan est 
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="section__capabilities-image">
+                          <img src="images/human-2.png" alt="" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__work">
+            <div class="container">
+                <h2 class="title">My Works</h2>
+                <div class="row">
+                  <div class="col-xl-3">
+                    <div class="list-group section__work-list" id="list-tab" role="tablist">
+                      <a class="list-group-item list-group-item-action section__work-link active" id="list-nike-list" data-bs-toggle="list" href="#list-nike" role="tab" aria-controls="list-home">NIKE</a>
+                      <a class="list-group-item list-group-item-action section__work-link" id="list-tnw-list" data-bs-toggle="list" href="#list-tnw" role="tab" aria-controls="list-home">TNW</a>
+                      <a class="list-group-item list-group-item-action section__work-link" id="list-blue-list" data-bs-toggle="list" href="#list-blue" role="tab" aria-controls="list-home">Blue marketing</a>
+                      <a class="list-group-item list-group-item-action section__work-link" id="list-boulevard-list" data-bs-toggle="list" href="#list-boulevard" role="tab" aria-controls="list-home">Boulevard</a>
+                      <a class="list-group-item list-group-item-action section__work-link" id="list-street-list" data-bs-toggle="list" href="#list-street" role="tab" aria-controls="list-home">Street88</a>
+                      <a class="list-group-item list-group-item-action section__work-link" id="list-vue-list" data-bs-toggle="list" href="#list-vue" role="tab" aria-controls="list-home">Vue Cinemas</a>
+                    </div>
+                  </div>
+                  <div class="col-xl-9">
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane section__work-pane fade show active" id="list-nike" role="tabpanel" aria-labelledby="list-nike-list">
+                          <div class="row">
+                            <div class="col-xl-3">
+                                <div class="section__work-image">
+                                  <img src="images/nike.png" alt="" class="section__work-img w-100 h-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="section__work-info h-100 d-flex flex-column justify-content-between">
+                                  <h2 class="section__work-title">NIKE Layout</h2>
+                                  <p class="section__work-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                  <p class="section__work-text">
+                                    nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                    <a href="https://ulushaa.github.io/nike/" class="btn-all section__work-btn">details</a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane section__work-pane fade" id="list-tnw" role="tabpanel" aria-labelledby="list-tnw-list">
+                          <div class="row">
+                            <div class="col-xl-3">
+                                <div class="section__work-image">
+                                  <img src="images/TNW.png" alt="" class="section__work-img w-100 h-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="section__work-info h-100 d-flex flex-column justify-content-between">
+                                  <h2 class="section__work-title">Tnw Layout</h2>
+                                  <p class="section__work-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                  <p class="section__work-text">
+                                    nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                    <a href="https://ulushaa.github.io/news-web/" class="btn-all section__work-btn">details</a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane section__work-pane fade" id="list-blue" role="tabpanel" aria-labelledby="list-blue-list">
+                          <div class="row">
+                            <div class="col-xl-3">
+                                <div class="section__work-image">
+                                  <img src="images/BlueMarketing.png" alt="" class="section__work-img w-100 h-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="section__work-info h-100 d-flex flex-column justify-content-between">
+                                  <h2 class="section__work-title">Blue Marketing Layout</h2>
+                                  <p class="section__work-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                  <p class="section__work-text">
+                                    nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                    <a href="https://ulushaa.github.io/blue-marketing/" target="_blank" class="btn-all section__work-btn">details</a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane section__work-pane fade" id="list-boulevard" role="tabpanel" aria-labelledby="list-boulevard-list">
+                          <div class="row">
+                            <div class="col-xl-3">
+                                <div class="section__work-image">
+                                  <img src="images/Boulevard market.png" alt="" class="section__work-img w-100 h-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="section__work-info h-100 d-flex flex-column justify-content-between">
+                                  <h2 class="section__work-title">Boulevard Layout</h2>
+                                  <p class="section__work-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                  <p class="section__work-text">
+                                    nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                    <a href="https://ulushaa.github.io/market/" class="btn-all section__work-btn">details</a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane section__work-pane fade" id="list-street" role="tabpanel" aria-labelledby="list-street-list">
+                          <div class="row">
+                            <div class="col-xl-3">
+                                <div class="section__work-image">
+                                  <img src="images/Street88.png" alt="" class="section__work-img w-100 h-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="section__work-info h-100 d-flex flex-column justify-content-between">
+                                  <h2 class="section__work-title">Street88 Layout</h2>
+                                  <p class="section__work-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                  <p class="section__work-text">
+                                    nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                    <a href="https://ulushaa.github.io/street-88/" class="btn-all section__work-btn">details</a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane section__work-pane fade" id="list-vue" role="tabpanel" aria-labelledby="list-vue-list">
+                          <div class="row">
+                            <div class="col-xl-3">
+                                <div class="section__work-image">
+                                  <img src="images/Vue Cinemas.png" alt="" class="section__work-img w-100 h-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="section__work-info h-100 d-flex flex-column justify-content-between">
+                                  <h2 class="section__work-title">Vue Cinemas Layout</h2>
+                                  <p class="section__work-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                  <p class="section__work-text">
+                                    nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                    <a href="https://ulushaa.github.io/vue-cinema/" class="btn-all section__work-btn">details</a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container ">
+          <div class="footer__info ms-auto">
+            <a class="logo footer__logo" href="#"></a>
+            <ul class="footer__list d-flex ">
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">about me</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">work</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">contacts</a>
+              </li>
+            </ul>
+            <div class="footer__info-about">
+              <a class="footer__info-tell" href="tel:+998999888800 ">(239) 555-0108</a>
+              <a class="footer__info-gmail" href="ummahachika@gmail.com">RonaldRichards@gmail.com</a>
+            </div>
+          </div>
+
+        </div>
+    </footer>
+
+    
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
